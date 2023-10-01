@@ -1,0 +1,269 @@
+
+.Navbar{
+
+   position: fixed !important;   
+   top:0;   
+  width: 100%; 
+  z-index: 99;
+  
+  
+  background-color: #343a40!important;
+ 
+
+}
+.demo{
+  background: linear-gradient(rgb(60, 57, 57),rgb(236, 132, 58));
+  
+}
+/* .demo{
+  
+  background: linear-gradient(rgb(228, 150, 6),rgb(56, 53, 53));
+  
+} */
+.marq{
+  padding: 10px;
+  margin-top: 0px;
+} 
+ #a6{
+  height:60px;
+  width:60px;
+  
+} 
+#a1{
+  margin-top: 10px;
+  margin-left:130px;
+   font-size: 20px;
+  font-style: italic;
+  color:white;
+  
+ 
+ 
+}
+.w{
+  margin-top: 10px;
+  margin-left:100px;
+   font-size: 20px;
+  font-style: italic;
+  color:white !important;
+}
+.w:hover{
+  color: orange;
+}
+#a1:hover{
+  color: orange;
+  
+}
+#aa:hover{
+  color: orange;
+}
+#a5{
+  font-size:30px;
+  font-style: italic;
+}
+#a7{
+  height:400px;
+  width:100%;
+  background-size: cover;
+} 
+.wrapper{
+  height: 100vh;
+  
+}
+
+.hai{
+  background-image:url('./Components/images/bg6.png') !important;
+  background-repeat: no-repeat; 
+  background-size:cover; 
+  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+}
+
+.hello{
+  /* background-image:url('./Components/images/bg7.png') !important; */
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.demo1{
+  /* background-image:url('./Components/images/bg8.jpg') !important; */
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.haiii{
+  background-image:url('./Components/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+   backdrop-filter: blur(5px); 
+  
+}
+.login {
+  width: 350px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 40px;
+   padding-top: 21px;
+  height:min-content;
+  border-style: ridge;
+  
+  border-radius: 40px;
+  /* border-radius: -10px; */
+  /* background-color: red; */
+  color: black;
+  /* background-color: rgb(236, 237, 238); */
+   /* margin-left: 160px ; */
+  margin-top: 0px; 
+  background-position: center; 
+  background-repeat:no-repeat; 
+  /* border-style: ridge ; */
+  backdrop-filter: blur(40px); 
+   /* box-shadow: 10px #cf5927;  */
+   
+} 
+h2{
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+}
+
+.a9{
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+}
+.card{
+  transition:all 0.3s;
+  display: flex;
+  box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+  transition:0.3% ease-in-out;
+}
+.card:hover {
+  transform:scale(1.15);
+  
+}
+/* #hai{
+  background-image: url("./Components/images/Dbg.jpg");
+  /* background-image: cover; */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+} */ */
+#dd{
+  transition:all 0.3s;
+  
+  box-shadow: 0 3px 100px rgba(240, 236, 236, 0.5) !important;
+  transition:0.1% ease-in-out;
+}
+#dd:hover{
+  transform:scale(1.10);
+}
+
+.card .shadow{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top:-60px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#c2{
+  display:flex;
+flex-wrap:wrap;
+margin: 10px;
+flex-direction: row;
+width:100%;
+  justify-content: space-around;
+}
+
+#c1{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* background-color: black !important; */
+  
+  /* margin: 10px; */
+}
+.block{
+  width:33%;
+}
+#c3{
+  background-repeat: no-repeat;
+}
+#c4{
+  font-size: 20px;
+}
+.flex-container{
+  display: flex !important ;
+}
+.btn1{
+  background-color: rgb(212, 132, 12) !important;
+  color: aliceblue !important;
+  border: none;
+  border-radius: 7px;
+  width:40%;
+  padding: 5px;
+  /* justify-items: center;
+  align-items: center; */ 
+}
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+
+}
+/* .search-form{
+  width: 100%;
+  max-width: 680px;
+  
+}
+.search-form-elem{
+  padding: 1.4rem 2.8rem;
+  border-radius: 3.8rem;
+
+}
+.search-form-elem .form-control{
+  font-size: 2rem;
+  padding: 0.6rem;
+  
+}
+.search-form-elem .form-control::placeholder{
+  opacity: 0.9;
+} */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
